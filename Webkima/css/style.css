@@ -1,0 +1,69 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Light.ttf);
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: vazir;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #693ad6;
+    border-radius: 2px;
+  }
+  
+ul{
+    list-style: none;
+    padding: 0;
+}
+.nav-link:hover{
+    color: blue;
+}
+.col2{
+    transition: transform .4s;
+}
+
+.col2:hover{
+    transform:translateY(-6px); 
+}
+
+.shad:hover{
+    box-shadow: rgba(201, 201, 207, 0.2) 0px 7px 20px 0px;
+}
+.academy:hover .sub-academy{
+    display: block;
+
+}
+.maghale:hover .sub-maghale{
+    display: block;
+}
+.benefit-link:hover .sub-benefit{
+    display: block;
+}
+.card img:hover{
+    cursor: pointer;;
+}
+.up{
+    position: sticky;
+    bottom: 1%;
+    right:20px;
+
+}
+.slider{
+    position: relative;
+    bottom: 160px;
+    color: black;
+}
