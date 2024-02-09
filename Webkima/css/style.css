@@ -1,0 +1,115 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Light.ttf);
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: vazir;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #693ad6;
+    border-radius: 2px;
+  }
+  
+ul{
+    list-style: none;
+    padding: 0;
+}
+.nav-link:hover{
+    color: blue;
+}
+.col2{
+    transition: transform .4s;
+}
+
+.col2:hover{
+    transform:translateY(-6px); 
+}
+
+.shad:hover{
+    box-shadow: rgba(201, 201, 207, 0.2) 0px 7px 20px 0px;
+
+}
+.academy:hover .sub-academy{
+    display: block;
+
+}
+.maghale:hover .sub-maghale{
+    display: block;
+}
+.benefit-link:hover .sub-benefit{
+    display: block;
+}
+.card img:hover{
+    cursor: pointer;;
+}
+.up{
+    position: sticky;
+    bottom: 1%;
+    right:20px;
+
+}
+.text-reg{
+    width: 75%;
+    border-radius: 10px;
+    border:1px solid #ccc;
+
+}
+.slider{
+    bottom: 150px;
+    text-align: center;
+  
+}
+.logo img{
+    width: 180px;
+    height: 50px;
+}
+@media screen and (min-width:600px) and (max-width:780px) {
+    .nav .vr{
+        display: none;
+    }
+    .nav .reg{
+        display: none;
+    }
+}
+@media screen and (max-width:780px) {
+    
+   .text-reg{
+        margin-bottom: 10px;
+        border-radius: 10px;
+        width: 100%;
+        border-radius: 10px;
+        border:1px solid #ccc;
+        padding: 7px;
+    }
+    .btn-reg{
+        width:50%;
+        border-radius: 10px;
+    }
+
+    
+}
+@media screen and (max-width:600px) {
+
+    .head-{
+        font-size: 18px;
+        
+    }
+    .btn-reg{
+        width: 100%;
+    }
+}
